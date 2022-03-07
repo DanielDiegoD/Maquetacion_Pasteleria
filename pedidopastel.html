@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pedidos</title>
+    <style></style>
+    <link rel="sytlesheet" href="">
+    <script></script>
+</head>
+<body>
+    <!-- Headings -->
+    <h1>Pedidos</h1>
+
+    <form action="pedido.js">
+        <label for="Nombre">Danos tu nombre</label><br>
+        <input type="text" id="Nombre" name="Nombre">
+         <br><br>
+
+         <label for="telefono">Telefono</label><br>
+         <input type="tel" id="telefono" name="telefono">
+          <br><br>
+        <label for="correo">Correo Electronico</label><br>
+        <input type="email" id="correo" name="correo">
+          <br><br>
+          <label for="mensaje">Describa el mensaje del pastel</label><br>
+        <input type="text" id="mensaje" name="mensaje">
+         <br><br>
+        
+        <p>Selecciona uno de los pasteles clasicos o de 3L</p>
+    
+        <p>Clasicos</p>
+        <input type="radio" id="Kisses" name="clasicos" value="kisses">
+        <label for="Kisses">Kisses</label><br>
+        <input type="radio" id="ferrero" name="clasicos" value="Ferrero">
+        <label for="ferrero">Ferrero</label><br>
+        <input type="radio" id="nevado" name="clasicos" value="Nevado">
+        <label for="nevado">Nevado</label><br>
+        <input type="radio" id="capuchino" name="clasicos" value="Capuchino">
+        <label for="capuchino">Capuchino</label><br>
+        <input type="radio" id="besoadefresa" name="clasicos" value="Besoadefresa">
+        <label for="besoadefresa">Besoa de fresa</label><br>
+        <input type="radio" id="doblequeso" name="clasicos" value="Doblequeso">
+        <label for="doblequeso">Doblequeso</label><br>
+        <input type="radio" id="cafe" name="clasicos" value="Cafe">
+        <label for="cafe">Cafe</label><br>
+
+        <p>Pasteles de 3L</p>
+        <input type="radio" id="durazno" name="3L" value="durazno">
+        <label for="durazno">Durazno 3L</label><br>
+        <input type="radio" id="carlos" name="3L" value="carlos">
+        <label for="carlos">Carlos v 3L</label><br>
+        <input type="radio" id="cafe3l" name="3L" value="cafe3l">
+        <label for="cafe3l">Cafe 3L</label><br>
+
+
+
+
+
+
+        <p>Arma tu pastel</p>
+        <p>Sabor</p>
+        <select name="Sabores" id="sabores">
+            <option value="Fresa">Fresa</option>
+            <option value="Chocolate">Chocolate</option>
+            <option value="Vainilla">Vainilla</option>
+
+        </select>
+        
+        <p>Relleno</p>
+        <select name="relleno" id="relleno">
+            <option value="Dulce">Dulce de leche</option>
+            <option value="Nutella">Nutella</option>
+            <option value="fresa">Fresa</option>
+        </select>
+        
+        
+        <p>Cubierto</p>
+        <select name="cubierto" id="cubierto">
+            <option value="Suspiro">Suspiro</option>
+            <option value="Fondant">Fondant</option>
+            <option value="Naked">Naked</option>
+        </select>
+        
+        <br><br>
+        <input type="submit">
+        <input type="reset">
+
+    </form>
+     
+
+
+</body>
+
+</html> 
